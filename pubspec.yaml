@@ -44,6 +44,7 @@ dependencies:
   url_launcher: ^6.1.14
   easy_search_bar: ^2.5.0
   easy_localization: ^3.0.3
+  device_preview:
 
 flutter_native_splash:
   image: "assets/images/logo.png"

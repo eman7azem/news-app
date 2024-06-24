@@ -29,7 +29,7 @@ class CategoriesWidget extends StatelessWidget {
               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 2, mainAxisSpacing: 24, crossAxisSpacing: 20),
               itemBuilder: (context, index) {
-                return InkWell(
+                return GestureDetector(
                     onTap: () {
                       onCategoryClicked(categoryList[index]);
                       provider.viewSearchIcon();

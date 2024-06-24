@@ -91,7 +91,7 @@ class _HomeLayoutState extends State<HomeLayout> {
                       Text("News App".tr()),
                       const Spacer(),
                       provider.showSearchIcon == true
-                          ? InkWell(
+                          ? GestureDetector(
                               onTap: () {
                                 provider.viewSearchBar();
                               },

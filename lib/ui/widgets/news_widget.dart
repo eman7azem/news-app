@@ -26,7 +26,7 @@ class _NewsWidgetState extends State<NewsWidget> {
         builder: (context, child) {
           return Padding(
             padding: const EdgeInsets.all(12),
-            child: InkWell(
+            child: GestureDetector(
               onTap: () {
                 provider.fromNewsToFull();
                 provider1.unViewSearchIcon();

@@ -31,7 +31,7 @@ class HomeDrawer extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 20),
-          InkWell(
+          GestureDetector(
             onTap: () {
               onMenuItemClick(MenuItem.categories);
               Navigator.pop(context);
@@ -51,7 +51,7 @@ class HomeDrawer extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 20),
-          InkWell(
+          GestureDetector(
             onTap: () {
               onMenuItemClick(MenuItem.settings);
               Navigator.pop(context);

@@ -79,7 +79,7 @@ class ShowFullNewWidget extends StatelessWidget {
                         style:
                             const TextStyle(fontSize: 13, color: Colors.black)),
                     const SizedBox(height: 40),
-                    InkWell(
+                    GestureDetector(
                       onTap: () {
                         provider.fromFullToNews();
                         provider2.viewSearchIcon();
@@ -93,7 +93,7 @@ class ShowFullNewWidget extends StatelessWidget {
                           alignment: Alignment.bottomLeft,
                           child: Icon(Icons.arrow_back)),
                     ),
-                    InkWell(
+                    GestureDetector(
                         onTap: () async {
                           final Uri url = Uri.parse(news[index].url ?? "");
 

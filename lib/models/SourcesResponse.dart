@@ -2,6 +2,8 @@ class SourcesResponse {
   SourcesResponse({
     this.status,
     this.sources,
+    this.code,
+    this.message,
   });
 
   SourcesResponse.fromJson(dynamic json) {

@@ -31,6 +31,7 @@ class ShowFullNewWidget extends StatelessWidget {
                       child: Text(snapshot.data?.message ??
                           snapshot.data!.status.toString()),
                     ),
+
                     ElevatedButton(
                         onPressed: () {}, child: const Text("Please try again"))
                   ],
